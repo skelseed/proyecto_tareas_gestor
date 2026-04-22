@@ -1,6 +1,6 @@
 # Gestor de Tareas
 
-[Requerimientos](https://github.com/tareasmiranda/sistema-transportes/blob/develop/REQUERIMIENTOS.md)
+[Funcionalidades](#funcionalidades) | [Tecnologías](#tecnologías-utilizadas) | [Instrucciones](#cómo-usar) 
 
 ## Funcionalidades
 
@@ -32,11 +32,3 @@ gestor-tareas/
 ├── styles.css
 ├── script.js
 └── README.md
-
-
-## Mejoras futuras
-
-- Fechas de vencimiento
-- Filtros por prioridad
-- Modo oscuro
-- Sincronización con backend
