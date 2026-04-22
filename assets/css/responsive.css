@@ -1,0 +1,40 @@
+/* responsive design 3 breakpoints */
+@media (max-width: 992px) {
+    .kanban-board {
+        gap: var(--espacio-sm);
+    }
+    body {
+        padding: var(--espacio-sm);
+    }
+}
+
+@media (max-width: 768px) {
+    .kanban-board {
+        grid-template-columns: 1fr;
+        gap: var(--espacio-md);
+    }
+    .task-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .btn-submit {
+        width: 100%;
+    }
+    .main-header {
+        flex-direction: column;
+        gap: var(--espacio-sm);
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    :root {
+        --tamano-base: 14px;
+    }
+    .task-card {
+        padding: 12px;
+    }
+    .col-header {
+        font-size: 1rem;
+    }
+}

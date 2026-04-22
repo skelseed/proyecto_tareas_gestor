@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Gestor de Tareas | Kanban</title>
+    <!-- Favicon simulado (data uri) -->
+    <link rel="icon" type="image/x-icon" href="./assets/img/icon.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body class="app-container">
+    <!-- Header con logo + navegación -->
+    <header id="inicio" class="main-header">
+        <section class="logo-area">
+            <img class="logo-icon" src="./assets/img/icon.png" alt="" srcset="">
+            <section class="logo-text">TaskFlow Kanban</section>
+        </section>
+        <nav class="nav-links">
+            <a href="#inicio">Inicio</a>
+            <a href="#gestor">Gestor</a>
+            <a href="#footer">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Formulario agregar tarea -->
+    <main id="gestor" class="task-form-card">
+        <h2 class="form-title">➕ Nueva tarea</h2>
+        <form id="taskForm" class="task-form">
+            <section class="form-group">
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" rows="2" placeholder="Escribe la descripción de la tarea..." required></textarea>
+            </section>
+            <section class="form-group">
+                <label for="prioridad">Prioridad:</label>
+                <select id="prioridad" required>
+                    <option value="">Seleccionar...</option>
+                    <option value="alta">Alta</option>
+                    <option value="media">Media</option>
+                    <option value="baja">Baja</option>
+                </select>
+            </section>
+            <section class="form-group">
+                <label for="fecha">Fecha límite:</label>
+                <input type="date" id="fecha" required>
+            </section>
+            <button type="submit" class="btn-submit">Agregar Tarea</button>
+        </form>
+    </main>
+
+    <!-- Tablero Kanban (3 columnas) -->
+    <section class="kanban-board">
+        <!-- Columna Pendientes -->
+        <section class="kanban-col col-pendiente" data-status="pendiente">
+            <section class="col-header">
+                <span>Pendientes</span>
+                <span class="task-counter" id="counter-pendiente">0</span>
+            </section>
+            <section class="tasks-list" id="lista-pendiente"></section>
+        </section>
+        <!-- Columna En Progreso -->
+        <section class="kanban-col col-progreso" data-status="progreso">
+            <section class="col-header">
+                <span>En Progreso</span>
+                <span class="task-counter" id="counter-progreso">0</span>
+            </section>
+            <section class="tasks-list" id="lista-progreso"></section>
+        </section>
+        <!-- Columna Completado -->
+        <section class="kanban-col col-completado" data-status="completado">
+            <section class="col-header">
+                <span>Completado</span>
+                <span class="task-counter" id="counter-completado">0</span>
+            </section>
+            <section class="tasks-list" id="lista-completado"></section>
+        </section>
+    </secton>
+
+    <footer id="footer" class="main-footer">
+        <p>📧 Contacto: skelseed | © 2026 skelseed - Gestión de Tareas</p>
+        <p style="font-size:0.7rem; margin-top:6px;">Desarrollado para Evaluación N°2 - UCT</p>
+    </footer>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
