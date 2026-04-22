@@ -2,6 +2,8 @@
 
 [Funcionalidades](#funcionalidades) | [Tecnologías](#tecnologías-utilizadas) | [Instrucciones](#cómo-usar) 
 
+[Uso de la IA](https://github.com/skelseed/proyecto_tareas_gestor/blob/main/docs/uso_ia.md)
+
 ## Funcionalidades
 
 - Crear tareas con nivel de prioridad (Alta, Media, Baja)
