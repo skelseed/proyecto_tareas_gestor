@@ -1,5 +1,8 @@
 # Uso de la Inteligencia Artificial en este proyecto
 
+La IA utilizada es Deepseek, la cual tuvo la mayor parte de participación en el proyecto, requerido por el curso.
+[DeeepSeek](https://chat.deepseek.com)
+
 ## 1. Generación del README.md
 
 Se solicitó a una IA (DeepSeek) la creación de un archivo `README.md` para un gestor de tareas con JavaScript y tabla Kanban. La IA generó una estructura inicial que incluía:
