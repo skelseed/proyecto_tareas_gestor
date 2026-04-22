@@ -29,32 +29,20 @@
 4. Arrastra las tareas entre las columnas del Kanban
 
 ## Estructura del proyecto
+```
 proyecto_tareas_gestor/
-
 ├── index.html
-
 ├── README.md
-
 ├── assets/
-
 │                 ├── css/
-
 │                 │            ├── style.css
-
 │                 │            └── responsive.css
-
 │                 ├── js/
-
 │                 │         └── script.js
-
 │                 ├── img/
-
 │                 │             ├── logo.png
-
 │                 │             └── favicon.ico
-
 │                 └── fonts/
-
 └── docs/
-
-                └── uso_ia.md
+    └── uso_ia.md
+```
