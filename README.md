@@ -28,7 +28,11 @@
 
 ## Estructura del proyecto
 gestor-tareas/
+
 ├── index.html
+
 ├── styles.css
+
 ├── script.js
+
 └── README.md
